@@ -1,0 +1,194 @@
+body{
+    background: linear-gradient(to bottom, #6d6868, #000000);
+}
+header{
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        
+    }
+
+footer{
+        display: flex;
+        background-color: grey;
+        height: 10vh;
+        width: 100%;
+        font-size: 70px;
+        position: absolute;
+        bottom: 0;
+       
+    }
+
+/* Below = index page */
+
+    .case{
+        width: 100px;
+        height: 50px;
+        border: none;
+        font-size: 40px;
+        text-align: center;
+        color: red;
+        justify-items: space-evenly;
+        margin: 10px;
+    }
+    
+    .titre{
+        color: goldenrod;
+        font-size: 50px;
+        font-family:Cochin;
+        text-align: left;
+       
+    }
+    .annonce{
+        display: flex;
+        text-align: justify;
+        font-size: 40px;
+        color: white;
+        position: relative;
+        width: 40%;
+        left: 30%;
+    }
+
+    .bio{
+        display: flex;
+        text-align: justify;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        width: 40%;
+        left: 30%;
+
+    }
+
+    .section-accueil{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        position: relative;
+    }
+
+    img{
+        height: 200px;
+        width: vw100;
+    }
+
+    .shadows{
+        position: absolute;
+        bottom: 10vh;
+        height: 400px;
+        
+    }
+
+    .animation-shadows{
+        animation: animation-shadows 4s linear;
+        animation-iteration-count: 1;
+    }
+
+    .bouton {
+        background-color: #04AA6D;
+        border: 2px solid white;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 2px;
+        position: absolute;
+        
+        left: 25%;
+        bottom: 25%;
+
+    }
+
+
+    @keyframes animation-shadows{
+        0% {transform: scale(0) rotate(120deg)}
+        20% {}
+        40% {}
+        50% {transform: scale(2) rotate(0)}
+        80% {}
+        100% {transform: scale(1)}
+    }
+    
+
+    /* Below - galerie page*/
+
+    .section-galerie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+        
+    }
+    .section-galerie video{
+        box-sizing: border-box;
+        width: 90%;
+        height: 600px;
+        margin: 20px;
+        
+
+    }
+    
+    .mastodon{
+        flex-basis: 33%;
+    }
+
+    .counting{
+        flex-basis: 33%;
+    }
+
+    .those{
+        flex-basis: 33%;
+    }
+
+    .tweak{
+        flex-basis: 50%;
+        
+    }
+
+    .harley{
+        flex-basis: 50%;
+       
+    }
+
+    video{
+        border: 10px solid white;
+       
+    }
+
+    /* Below - presentation page */
+
+    .section-presentation{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 60%;
+        position: relative;
+        left: 20%;
+        bottom: 0;
+        
+    }
+   
+    .pres-title{
+        font-size: 40px;
+        color: white; 
+        text-align: center;
+        
+    }
+
+    .paragraphe{
+        font-size: 20px;
+        color: white;
+        text-align: justify;
+        border: 3px solid white;
+        margin-bottom: 4cm;
+        padding: 25px;
+
+    }
+
+    h3{
+        margin: 20px;
+
+    }
